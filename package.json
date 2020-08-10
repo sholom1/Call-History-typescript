@@ -1,0 +1,26 @@
+{
+  "name": "callhistorycollector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sholom1/Call-History-typescript.git"
+  },
+  "author": "Sam Kessler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sholom1/Call-History-typescript/issues"
+  },
+  "homepage": "https://github.com/sholom1/Call-History-typescript#readme",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
