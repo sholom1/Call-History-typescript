@@ -1,26 +1,36 @@
 {
-  "name": "callhistorycollector",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sholom1/Call-History-typescript.git"
-  },
-  "author": "Sam Kessler",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sholom1/Call-History-typescript/issues"
-  },
-  "homepage": "https://github.com/sholom1/Call-History-typescript#readme",
-  "dependencies": {
-    "@types/express": "^4.17.7",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+	"name": "callhistorycollector",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon Server.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sholom1/Call-History-typescript.git"
+	},
+	"author": "Sam Kessler",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sholom1/Call-History-typescript/issues"
+	},
+	"homepage": "https://github.com/sholom1/Call-History-typescript#readme",
+	"dependencies": {
+		"@types/express": "^4.17.7",
+		"@types/jsdom": "^16.2.3",
+		"@types/socket.io": "^2.1.11",
+		"@types/unzipper": "^0.10.3",
+		"express": "^4.17.1",
+		"formidable": "^1.2.2",
+		"jsdom": "^16.4.0",
+		"socket.io": "^2.3.0",
+		"unzipper": "^0.10.11"
+	},
+	"devDependencies": {
+		"@types/formidable": "^1.0.31",
+		"nodemon": "^2.0.4",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	}
 }
